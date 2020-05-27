@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def index(request):
     return render(request,'myapp/index.html')
+
+def kanji(request):
+    return render(request,'myapp/kanji.html')

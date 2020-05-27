@@ -1,6 +1,12 @@
 # 日本語を学ぶ
-![alt text](./screenshots/homepage.png)
 このツールの助けを借りて、誰でも基本的な日本語の練習を始め、これまでに学んだことを追跡することができます。
+
+## ホームページ
+ホームページ
+![alt text](./screenshots/homepage.png)
+漢字リスト
+![alt text](./screenshots/kanji.png)
+
 
 ## ユーザーガイド
 * git clone https://github.com/pandeyroshan/Learn-Japanese.git
