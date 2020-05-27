@@ -1,4 +1,5 @@
 # Learn Japanese
+![alt text](./screenshots/homepage.png)
 このツールの助けを借りて、誰でも基本的な日本語の練習を始め、これまでに学んだことを追跡することができます。
 
 ## ユーザーガイド
