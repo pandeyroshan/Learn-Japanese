@@ -6,15 +6,32 @@
         <meta name="google" content="notranslate">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap" rel="stylesheet">
     </head>
-    <body class="ml-3 mr-3" style="font-family: 'Noto Serif JP', serif;">
-        <h3 class="text-success text-left font-weight-light mt-2 ml-3">日本語</h3>
+    <style>
+        p{
+            font-family: 'Cormorant Garamond', serif;
+            font-family: 'Lora', serif;
+        }
+        .bg
+        {
+            background-color: #6C63FF;
+        }
+    </style>
+    <body class="ml-3 mr-3">
+
+        <div id="float-left">
+            <div class="">
+                <h3 class="text-success text-left font-weight-light ml-3 float-left">日本語</h3>
+            </div>
+            <div class="">
+                <p class="text-info text-left font-weight-light mt-2 ml-3 pr-3 text-right">約</p>
+            </div>
+        </div>
         
         <hr>
         <div class="row justify-content-center">
             <div class="container-fluid shadow-lg p-3 mb-5 bg-white rounded col-xl-5 col-md-6">
-                <p class="text-center bg-info mt-3 mb-3 p-3">ひらがなとカタカナ</p>
+                <h3 class="text-center bg mt-3 mb-3 p-3">ひらがなとカタカナ</h3>
                 <img src="{% static 'myapp/img/hiragana.jpg' %}" style="width: 100%;">
                 <div class="text-right">
                     <button class="btn btn-outline-danger mt-3">今すぐ練習</button>
@@ -23,14 +40,14 @@
 
             <div class="container-fluid shadow-lg p-3 mb-5 bg-white rounded col-xl-5 col-md-6">
                 <p class="text-center bg-warning mt-3 mb-3 p-3 rounded"> 会話の日本語 </p>
-                <a href="/kanji" style="text-decoration: none; color: #000;"><p class="text-center bg-danger mt-3 mb-3 p-3 rounded"> 漢字 </p></a>
-                <p class="text-center bg-warning mt-3 mb-3 p-3 rounded"> 学習リソース </p>
+                <a href="/漢字" style="text-decoration: none; color: #000;"><p class="text-center bg-danger mt-3 mb-3 p-3 rounded"> 漢字 </p></a>
+                <a href="/収斂" style="text-decoration: none; color: #000;"><p class="text-center bg-warning mt-3 mb-3 p-3 rounded"> 学習リソース </p></a>
                 <p class="text-center bg-danger mt-3 mb-3 p-3 rounded"> ソング </p>
                 <br>
                 <hr>
                 <br>
-                <a href="#" style="text-decoration: none; color: #000;"><p class="text-center bg-info mt-3 mb-3 p-3 rounded">練習 会話</p></a>
-                <a href="#" style="text-decoration: none; color: #000;"><p class="text-center bg-info mt-3 mb-3 p-3 rounded">練習 漢字</p></a>
+                <a href="#" style="text-decoration: none; color: #000;"><p class="text-center bg mt-3 mb-3 p-3 rounded">練習 会話</p></a>
+                <a href="#" style="text-decoration: none; color: #000;"><p class="text-center bg mt-3 mb-3 p-3 rounded">練習 漢字</p></a>
             </div>
         </div>
 
